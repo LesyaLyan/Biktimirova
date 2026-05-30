@@ -1,11 +1,14 @@
-@import url('https://googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 h1 {color:Orange;
     font-weight:bold;
     text-align:center;
     font-size:40px
    }
 body {background-color:lightyellow;
-      text-align:center;    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family:'Poppins',sans-serif;
      }
 h2 {color:brown;
     text-align:center;
@@ -17,5 +20,3 @@ h3 {color:green;
 img{display:block;
     margin:auto;
    }
-p {font-family:'Poppins',sans-serif;
-  }
